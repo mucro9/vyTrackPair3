@@ -18,13 +18,13 @@ public class VytrackPage {
     public WebElement customersDropdown;
 
     @FindBy(xpath = "//span[.='Accounts']")
-    public WebElement accountButton;
+    public WebElement accountsButton;
 
     @FindBy(xpath = "//a[@class='action btn mode-icon-only']")
     public WebElement filterIcon;
 
     @FindBy(xpath = "//div[@class='filter-item oro-drop']")
-    public List<WebElement> filters;
+    public static List<WebElement> filters;
 
 
 }
