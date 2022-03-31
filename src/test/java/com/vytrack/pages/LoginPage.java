@@ -1,6 +1,4 @@
 package com.vytrack.pages;
-
-
 import com.vytrack.utilities.ConfigurationReader;
 import com.vytrack.utilities.Driver;
 import org.openqa.selenium.WebElement;
@@ -66,7 +64,6 @@ public class LoginPage {
         passwordInput.sendKeys(password);
         loginButton.click();
     }
-
 
     public void logout(){
         profileLink.click();
