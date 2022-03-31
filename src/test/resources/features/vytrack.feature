@@ -1,6 +1,6 @@
 Feature:As a user, I want to filter customers’ info on the Account page.
 
-  @wip
+
   Scenario: Login as a store manager
     Given user is on the login page
     When user logins as a store manager
